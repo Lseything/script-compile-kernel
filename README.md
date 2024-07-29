@@ -6,5 +6,4 @@
 
 * This is a public script and forks are enabled so you can modify it however you want if you understand $bash.
 
-Author: Lseything
-Email: <lseything@proton.me>
+Author: Lseything <lseything@proton.me>
