@@ -18,10 +18,9 @@ sync_repository() {
 }
 
 # Function to download build.sh
-download_build_sh() {
-    echo "Downloading build.sh from host..."
-    cd your_kernel_folder
-    wget www.your-link-custom-build.sh
+#add your custom build.sh manually on kernel folder.
+
+signed: Lseything
 }
 
 # Function to start the kernel build
