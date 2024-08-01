@@ -1,4 +1,4 @@
-# script-kernel-build-preparation
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -script-kernel-build-preparation
 
 * This is a script made in $bash to assist in preparing the build for the GKI kernel, where it installs important packages and automatically synchronizes the repository.
 
@@ -6,4 +6,4 @@
 
 * This is a public script and forks are enabled so you can modify it however you want if you understand $bash.
 
-# Signed-Off-by: Lseything <lseything@proton.me>
+- - - - - - - - - - - - - - - - - - - - - - - # Signed-Off-by: Lseything <lseything@proton.me>
