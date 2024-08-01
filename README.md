@@ -4,4 +4,4 @@
 
 * This is a public script and forks are enabled so you can modify it however you want if you understand $bash.
 
-# Signed-Off-by: Username: Lseything   Email: <lseything@proton.me>
+# Signed-Off-by: *lseything@proton.me*
