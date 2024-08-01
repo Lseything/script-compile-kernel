@@ -1,4 +1,4 @@
-# - - - - - - - - - - - - - - - - - - - - - - - - - - -script-kernel-build-preparation
+# script-kernel-build-preparation
 
 * This is a script made in $bash to assist in preparing the build for the GKI kernel, where it installs important packages and automatically synchronizes the repository.
 
