@@ -17,10 +17,9 @@ sync_repository() {
     repo sync
 }
 
-# Function to download build.sh
-#add your custom build.sh manually on kernel folder.
+#Add your custom build.sh manually on kernel folder.
+Signed-Off-by: Lseything <lseything@proton.me>
 
-signed: Lseything
 }
 
 # Function to start the kernel build
