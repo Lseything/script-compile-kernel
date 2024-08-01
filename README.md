@@ -5,4 +5,3 @@
 * This is a public script and forks are enabled so you can modify it however you want if you understand $bash.
 
 # Signed-Off-by: Lseything <lseything@proton.me>
- script-kernel-build-preparation
