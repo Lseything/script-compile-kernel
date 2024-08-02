@@ -17,7 +17,7 @@ sync_repository() {
     repo sync
 }
 
-#Add your custom build.sh manually on kernel folder.
+# Add your custom build.sh manually on kernel folder.
 Signed-Off-by: Lseything <lseything@proton.me>
 
 }
