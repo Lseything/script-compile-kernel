@@ -17,8 +17,9 @@ sync_repository() {
     repo sync
 }
 
-# Add your custom build.sh manually on kernel folder.
-Signed-Off-by: Lseything <lseything@proton.me>
+# Starting build = Korn Plataform
+
+cd experimental
 
 }
 
@@ -26,7 +27,7 @@ Signed-Off-by: Lseything <lseything@proton.me>
 start_build() {
     echo "Locating your_kernel_folder/build.sh..."
     echo "Running build.sh..."
-    bash build.sh
+    bash builder.sh
 }
 
 # Main script execution
