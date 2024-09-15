@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Credits : @LSEYTHING ON TELEGRAM
+# Credits: @LSEYTHING ON TELEGRAM
 
 # Function to update and install packages
 install_packages() {
@@ -17,16 +17,23 @@ sync_repository() {
     repo sync
 }
 
-# Starting build = Korn Plataform
-
-cd experimental
-
+# Function to download build.sh (placeholder for actual download if needed)
+download_build_sh() {
+    echo "Checking if build.sh exists..."
+    if [ ! -f "builder.sh" ]; then
+        echo "builder.sh not found! Download or place the script in the current directory."
+        exit 1
+    else
+        echo "builder.sh found."
+    fi
 }
 
 # Function to start the kernel build
 start_build() {
-    echo "Locating your_kernel_folder/build.sh..."
-    echo "Running build.sh..."
+    echo "Navigating to experimental directory..."
+    cd experimental || { echo "experimental directory not found!"; exit 1; }
+    
+    echo "Running builder.sh..."
     bash builder.sh
 }
 
@@ -39,4 +46,5 @@ main() {
     echo "Your preparation and build finished."
 }
 
+# Call main function
 main
